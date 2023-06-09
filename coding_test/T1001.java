@@ -1,8 +1,8 @@
-package test;
+package coding_test;
 
 import java.util.Scanner;
 
-public class T1008 {
+public class T1001 {
 
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
