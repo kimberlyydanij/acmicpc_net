@@ -8,16 +8,28 @@ public class T2738 {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		System.out.printf("%d %d",a,b);
-				
-		int[][] data;
-		data = new int[a][b];
+		int[][] data1 = new int[a][b];
+		int[][] data2 = new int[a][b];
+		
 		for(int i=0;i<a;i++) {
 			for(int j=0;j<b;j++) {
-				data[i][j] = sc.nextInt();
-				System.out.printf("%d %d %d",i, j, data[i][j]);
+				data1[i][j] = sc.nextInt();
+			}
+		}
+		
+		for(int i=0;i<a;i++) {
+			for(int j=0;j<b;j++) {
+				data2[i][j] = sc.nextInt();
+			}
+		}
+		
+		for(int i=0;i<a;i++) {
+			for(int j=0;j<b;j++) {
+				System.out.printf("%d ",data1[i][j]+data2[i][j]);
 			}
 			System.out.println();
 		}
+
 	}
+
 }
