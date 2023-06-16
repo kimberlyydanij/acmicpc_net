@@ -2,19 +2,17 @@ package coding_test;
 
 import java.util.Scanner;
 
-public class T1330 {
+public class T10871 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		
-		if(a>b) {
-			System.out.println(">");
-		} else if(a==b) {
-			System.out.println("==");
-		} else 
-			System.out.println("<");
+		int c = 0;
+		for(int i = 1; i<=a;i++) {
+			c = sc.nextInt();
+			if(c<b)
+				System.out.printf("%d ",c);
 		}
 	}
-
+}
