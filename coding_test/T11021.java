@@ -10,7 +10,7 @@ public class T11021 {
 		for(int i = 1;i <= a;i++) {
 			int b = sc.nextInt();
 			int c = sc.nextInt();
-			System.out.println("Case #" + i + ": " + (b+c));
+			System.out.printf("\nCase #%d: %d + %d = %d",i,b,c,b+c);
 		}
 		sc.close();
 	}
