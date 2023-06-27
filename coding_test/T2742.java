@@ -8,10 +8,9 @@ public class T2742 {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		
-		for(int i = 1;i <= a; i++) {
+		for(int i = a;i > 0; i--) {
 			System.out.println(i);
 		}
-
+		sc.close();
 	}
-
 }
