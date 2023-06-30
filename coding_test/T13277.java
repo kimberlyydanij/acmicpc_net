@@ -10,7 +10,6 @@ public class T13277 {
 		BigInteger a = sc.nextBigInteger();
 		BigInteger b = sc.nextBigInteger();
 		System.out.println(a.multiply(b));
-
+		sc.close();
 	}
-
 }
