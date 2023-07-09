@@ -9,7 +9,7 @@ public class T26574 {
 		int a = sc.nextInt();
 		for(int i=0;i<a;i++) {
 			int b = sc.nextInt();
-			System.out.printf("%d %d",b,b);
+			System.out.printf("%d %d%n",b,b);
 		}
 		sc.close();
 	}
